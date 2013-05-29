@@ -1,6 +1,6 @@
 {
     "name": "davejamesmiller/laravel-boris",
-    "description": "Adds an 'artisan boris' command to run the Boris REPL in the Laravel environment",
+    "description": "Adds an 'artisan boris' command to run the Boris REPL in the Laravel environment.",
     "keywords": [
         "laravel"
     ],
