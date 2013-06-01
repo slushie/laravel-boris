@@ -30,6 +30,10 @@ This registers the Artisan task with Laravel.
 php artisan boris
 ```
 
+## Changelog
+### 1.0.0
+* Initial release
+
 ## License
 MIT License. See [LICENSE.txt][4].
 
