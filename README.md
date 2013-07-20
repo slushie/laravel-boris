@@ -39,5 +39,5 @@ MIT License. See [LICENSE.txt][4].
 
 [1]: http://four.laravel.com/
 [2]: https://github.com/d11wtq/boris
-[3]: https://packagist.org/packages/davejamesmiller/laravel-aliases
+[3]: https://packagist.org/packages/davejamesmiller/laravel-boris
 [4]: LICENSE.txt
