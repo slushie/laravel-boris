@@ -4,12 +4,16 @@
     "keywords": [
         "laravel"
     ],
-    "homepage": "https://github.com/davejamesmiller/laravel-boris",
+    "homepage": "https://github.com/slushie/laravel-boris",
     "authors": [
         {
             "name": "Dave James Miller",
             "email": "dave@davejamesmiller.com",
             "homepage": "http://davejamesmiller.com/"
+        },
+        {
+            "name": "Josh Leder",
+            "email": "josh@ha.cr"
         }
     ],
     "license": "MIT License",
