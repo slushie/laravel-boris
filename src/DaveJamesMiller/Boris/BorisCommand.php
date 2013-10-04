@@ -33,8 +33,10 @@ class BorisCommand extends Command {
         restore_exception_handler();
         $this->laravel->make('artisan')->setCatchExceptions(false);
 
-        // Stop the shutdown handler outputting a JSON error object
-        $this->laravel->error(function() { return ''; });
+        // Show exceptions with stack trace
+        $this->laravel->error(function($ex) { 
+            return $ex->toString(); 
+        });
 
         // create
         $boris = new Boris;
