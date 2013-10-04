@@ -1,6 +1,7 @@
 <?php namespace DaveJamesMiller\Boris;
 
 use Boris\Boris;
+use Boris\Config;
 use Illuminate\Console\Command;
 use Illuminate\Foundation\AliasLoader;
 
@@ -35,8 +36,14 @@ class BorisCommand extends Command {
         // Stop the shutdown handler outputting a JSON error object
         $this->laravel->error(function() { return ''; });
 
-        // Run Boris
+        // create
         $boris = new Boris;
+
+        // configure Boris
+        $config = new Config;
+        $config->apply($boris);
+
+        // Run Boris
         $boris->start();
     }
 
