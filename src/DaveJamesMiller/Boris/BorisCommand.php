@@ -35,7 +35,7 @@ class BorisCommand extends Command {
 
         // Show exceptions with stack trace
         $this->laravel->error(function($ex) { 
-            return $ex->toString(); 
+            return "$ex\n";
         });
 
         // create
